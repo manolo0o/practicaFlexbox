@@ -1,10 +1,10 @@
 body {
-    margin: 0;  /* Agregamos esto para eliminar el margen predeterminado del cuerpo del documento */
+    margin: 0;  
 }
 
 header {
     display: flex;
-    justify-content: space-between;  /* Distribuirá los elementos a los lados del header */
+    justify-content: space-between; 
     align-items: center;
     padding: 20px 5%;
 }
