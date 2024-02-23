@@ -2,6 +2,11 @@ body {
     margin: 0;  
 }
 
+img {
+    display: flex;
+    justify-content: flex-start;
+}
+
 header {
     display: flex;
     justify-content: space-between; 
@@ -37,4 +42,10 @@ a {
 a:hover {
     color: rgb(246, 8, 8);
     border-color: rgb(246, 8, 8) ;
+}
+
+.lenguage {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.363);
+
 }
