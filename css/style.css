@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div{
+    width: 350px;
+    height: 170px;
+    background-color: rgba(128, 128, 128, 0.445);
+    text-align: none;
+    padding: 20px;
+}
+
+p {
+    color: rgb(104, 86, 86);
+}
+
+.titulo{
+    display: flex;
+    color: black;
+}
