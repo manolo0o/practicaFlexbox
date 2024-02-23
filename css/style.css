@@ -1,29 +1,40 @@
-nav{
+body {
+    margin: 0;  /* Agregamos esto para eliminar el margen predeterminado del cuerpo del documento */
+}
+
+header {
     display: flex;
-    align-self: center;
-    justify-content: space-between ;
-    padding-top: 20px;
-    padding-left: 5%;
-    padding-right:5%;
+    justify-content: space-between;  /* Distribuirá los elementos a los lados del header */
+    align-items: center;
+    padding: 20px 5%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
     font-weight: bold;
 }
 
-h1{
-    color: white;
-    font-size: 45px; 
+ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    display: flex;
 }
 
-ul li{
-    display: inline-block;
-    padding: 0px 20px;
+ul li {
+    margin-right: 20px;
 }
 
-
-a{
-    color: white;
+a {
+    color: grey;
     text-decoration: none;
+    padding: 10px;
+    border: 1px grey;
+    border-radius: 5px;
 }
 
-a:hover{
-    color: aquamarine;
+a:hover {
+    color: rgb(246, 8, 8);
+    border-color: rgb(246, 8, 8) ;
 }
