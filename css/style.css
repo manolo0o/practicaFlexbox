@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+    height: 220px;
+}
+
+.header-container{
+    text-align: center;
+}
+
+.titulo1 {
+    margin-top: 0;
+    color: white;
+}
+
+div {
+    color: white;
+    margin-top: 10px;
+}
+
