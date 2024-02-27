@@ -47,7 +47,7 @@ ul li{
 a {
     text-decoration: none;
     padding: 10px;
-    border-radius: 20 px;
+    border-radius: 20px;
     color: white;
 }
 
@@ -59,11 +59,12 @@ aside{
     padding: 35px;
     background-color: rgba(192, 192, 192, 0.37);
     width: 30%;
-    height: 120vh;
+    height: 112vh;
     margin-left: 0px;
 }
 
 .h-aside{
+    margin-top: auto;
     text-align: left;
 }
 
@@ -76,4 +77,39 @@ aside{
     width: 290px ;
     height: 200px;
     margin-top: 6px;
+}
+
+article{
+    width: 70%;
+    background-color: rgba(250, 235, 215, 0.144);
+}
+
+.oficial{
+    margin-left: 20px;
+}
+
+.ofc1{
+    margin-left: 20px; 
+}
+
+.galery3 img{
+    margin-left: 20px; 
+    width: 600px;
+    height: 200px;
+}
+
+article p{
+    margin-left: 20px;
+}
+
+article .pp{
+    border-bottom: 5px solid rgba(184, 183, 183, 0.486); 
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(167, 165, 165, 0.637);
+    height: 100px;
 }
